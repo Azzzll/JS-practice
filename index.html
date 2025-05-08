@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./">
 </head>
 <body>
+<div class="container">
     <div>
-        <h1>Задание 1</h1>
+        <h1 class="qwe">Задание 1</h1>
         <p>Запись в абзац</p>
         <p id="myParagraph">Привет мир</p>
         <input type="text" id="myInput">
@@ -28,6 +30,7 @@
 
     <div>
         <h1>Задание 3</h1>
+        <p>Посчитать сумму цифр</p>
         <input type="number" id="numberInput">
         <p id="resultParagraph2">Сумма цифр: 0</p>
     </div>
@@ -58,7 +61,216 @@
     </div>
 
 
+    <div>
+        <h1>Задание 7</h1>
+        <p>Вводится текст. По потери фокуса вывод количества слов в этом тексте</p>
+        <input type="text" id="inputText" placeholder="Введите текст здесь">
+        <div id="result"></div>
+    </div>
+
+
+    <div>
+        <h1>Задание 8</h1>
+        <p>Введите дату в формате ДД.ММ.ГГГГ</p>
+        <p>(вводится дата в формате 31.12.2016, По потери фокуса в этом же инпуте поставьте эту дату в формате 2016-12-31)</p>
+        <input type="text" id="dateInput">
+    </div>
+
+
+    <div>
+        <h1>Задание 9</h1>
+        <p>Проверка слова на палиндром</p>
+        <input type="text" id="wordInput" placeholder="Введите слово">
+        <button id="checkButton">Проверить</button>
+        <div id="result9"></div>
+    </div>
+
     
+    <div>
+        <h1>Задание 10</h1>
+        <p>Содержит ли число цифру 3 по потери фокуса</p>
+        <input type="text" id="numberInput10" placeholder="Введите число">
+        <div id="message10"></div>
+    </div>
+    
+
+    <div>
+        <h1>Задание 11</h1>
+        <p class="p-11">Первый абзац текста</p>
+        <p class="p-11">Второй абзац текста</p>
+        <p class="p-11">Третий абзац текста</p>
+        <button id="numberButton11">Пронумеровать абзацы</button>
+    </div>
+
+
+    <div>
+        <h1>Задание 12</h1>
+        <a class="href-12" href="https://google.com">Google</a><br>
+        <a class="href-12" href="https://yandex.ru">Яндекс</a><br>
+        <a class="href-12" href="https://vk.com">VK</a><br>
+        <a class="href-12" href="https://www.avito.ru/">Avito</a><br>
+        <button id="addHrefButton">Показать адреса ссылок</button>
+    </div>
+
+
+    <div>
+        <h1>Задание 13</h1>
+        <p>Если ссылка начинается с http://, добавляется "→"</p>
+        <a class="href-13" href="google.com">Google</a><br>
+        <a class="href-13" href="http://yandex.ru">Яндекс</a><br>
+        <a class="href-13" href="vk.com">VK</a><br>
+        <a class="href-13" href="http://www.avito.ru/">Avito</a><br>
+        <button id="addArrowButton">Добавить стрелки к HTTP-ссылкам</button>
+    </div>
+
+
+    <div>
+        <h1>Задание 14</h1>
+        <p>По нажатию на любой абзац записывается <br> в него квадрат числа, которое в нем находится</p>
+        <p class="p-14">5</p>
+        <p class="p-14">10</p>
+        <p class="p-14">-3</p>
+        <p class="p-14">2.5</p>
+    </div>
+
+
+    <div>
+        <h1>Задание 15</h1>
+        <p>Определение дня недели</p>
+        <input type="text" id="dateInput15" placeholder="Введите дату (ДД.ММ.ГГГГ)">
+        <div id="result15"></div>
+    </div>
+
+
+    <div>
+        <h1>Задание 16</h1>
+        <button id="decrement">-</button>
+        <input type="number" id="counter" value="0" min="0">
+        <button id="increment">+</button>
+    </div>
+
+
+    <div>
+        <h1>Задание 17</h1>
+        <p class="p-17">Абзац 1 (кликните меня)</p>
+        <p class="p-17">Абзац 2 (кликните меня)</p>
+        <p class="p-17">Абзац 3 (кликните меня)</p>
+        <label>Общее количество кликов:</label>
+        <input type="text" id="clickCounter" value="0">
+    </div>
+
+
+    <div>
+        <h1>Задание 18</h1>
+        <p>Обрезка текста до 10-и символов</p>
+        <div class="div-18">Этот текст будет обрезан до 10 символов</div>
+        <div class="div-18">Короткий текст</div>
+        <div class="div-18">Международное сотрудничество</div>
+        <div class="div-18">1234567890ABCDEF</div>
+    </div>
+
+
+    <div class="task-19">
+        <h1>Задание 19</h1>
+        <p>Проверка числа на диапазон от 1 до 100</p>
+        <input type="number" id="numberInput19" placeholder="Введите число от 1 до 100">
+        <div id="message19" class="message19"></div>
+    </div>
+
+
+    <div>
+        <h1>Задание 20</h1>
+        <p> Создание случайной строки</p>
+        <input type="text" id="inputTask20"/><br><br>
+        <button id="buttonTask20">Сгенерировать строку</button>
+    </div>
+
+
+    <div>
+        <h1>Задание 21</h1>
+        <p>Перемешивание символов</p>
+        <input type="text" id="inputString21"/><br><br>
+        <button id="shuffleButton21">Перемешать</button>
+    </div>
+
+
+    <div>
+        <h1>Задание 22</h1>
+        <p>Конвертация температуры</p>
+        <input type="text" id="inputString22"/><br><br>
+        <button id="Button22">Конвертировать</button>
+        <p id="result22"></p>
+    </div>
+
+
+
+    <div>
+        <h1>Задание 23</h1>
+        <input type="text" id="inputString23"/><br><br>
+        <button id="Button23">Вывести факториал</button>
+        <p id="result23"></p>
+    </div>
+
+
+    <div>
+        <h1>Задание 24</h1>
+    padding-bottom: 0px;
+        <p>Введите коэффициенты уравнения ax² + bx + c = 0 (a = 2, b = -9, c = 4)</p>
+        
+        <div class="input-group">
+            <input type="number" id="a" placeholder="a">
+            <span>x² +</span>
+            <input type="number" id="b" placeholder="b">
+            <span>x +</span>
+            <input type="number" id="c" placeholder="c">
+            <span>= 0</span> 
+        </div>
+        <br>
+        <button id="solveBtn">Найти корни</button>
+        <div id="result24"></div>
+    </div>
+</div>
 </body>
+
+<style>
+@font-face {
+    font-family: 'Gabriela';
+    src: url(./OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body{
+    font-family: 'Gabriela'; 
+    margin: 0;
+    opacity: 0.87;
+    background-image: url(./haochi_20161002_1.jpg);
+    background-size:contain;
+}
+
+p{
+    width: 600px;
+}
+h1{
+    margin-top: 50px;
+}
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 60%; /* или фиксированная ширина, например, 1200px */
+    margin: 0 auto; /* автоматические отступы слева и справа */
+    height: auto;
+    background-color: rgb(210, 192, 212);
+    padding-bottom: 70px;
+}
+.qwe{
+    margin-top: 0;
+}
+.valid-message {
+    color: #4CAF50;
+}
+.invalid-message {
+    color: #f44336;
+}
+</style>
+
 <script src="./script.js"></script>
 </html>
